@@ -1,0 +1,9 @@
+{
+  "name": "alkaline-institute",
+  "homepage": "https://github.com/mikkeltschentscher/alkaline-institute",
+  "authors": [
+    "Mikkel Tschentscher <hello@mikkeltschentscher.dk>"
+  ],
+  "license": "MIT",
+  "private": true
+}

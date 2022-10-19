@@ -1,0 +1,34 @@
+//
+// Wells
+// --------------------------------------------------
+
+
+// Base class
+.well {
+  min-height: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: $well-bg;
+  border: 1px solid $well-border;
+  &.well-default { background: $well-bg; }
+  &.well-primary { background: $brand-primary; color: white;  }
+  &.well-secondary { background: $brand-secondary; color: white; }
+  &.well-tertiere { background: $brand-tertiere; }
+
+  &.well-primary,
+  &.well-secondary {
+    h1, h2, h3, h4, h5, h6 {
+      color: inherit;
+    }
+  }
+}
+
+// Sizes
+.well-lg {
+  padding: 24px;
+  border-radius: $border-radius-large;
+}
+.well-sm {
+  padding: 9px;
+  border-radius: $border-radius-small;
+}

@@ -1,0 +1,238 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Alkaline Institute\n"
+"POT-Creation-Date: 2018-02-07 14:21+0100\n"
+"PO-Revision-Date: 2018-02-07 14:29+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-WPHeader: style.css\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: functions.php:62
+#, php-format
+msgid "Error locating %s for inclusion"
+msgstr "Fejl ved lokalisering af %s til inkludering"
+
+#: src/backend/change-dashboard-icons.php:5
+msgid "Posts"
+msgstr "Indlæg"
+
+#: src/models/custom-post-type.php:24
+msgid "Products"
+msgstr "Produkter"
+
+#: src/models/custom-post-type.php:25
+msgid "Product"
+msgstr "Produkt"
+
+#: src/theme-setup.php:316
+msgid "Primary Navigation"
+msgstr "Primær navigation"
+
+#: src/theme-setup.php:387
+#, php-format
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s kl. %2$s"
+
+#: src/theme-setup.php:394
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar afventer godkendelse."
+
+#: src/theme-setup.php:403
+msgid "Edit"
+msgstr "Rediger"
+
+#: templates/404.php:10
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hov! Denne side findes ikke"
+
+#: templates/404.php:13
+msgid "It looks like nothing was found at this location."
+msgstr "Det ser ud til at intet blev fundet på denne webadresse."
+
+#: templates/404.php:16
+msgid "Return home?"
+msgstr "Gå til forsiden?"
+
+#: templates/comments.php:17
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: templates/comments.php:37
+msgid "Comments are closed"
+msgstr "Kommentarer er lukket"
+
+#: templates/page.php:95 templates/page.php:122
+#: templates/partials/snippet-form-fields.php:9
+#: templates/partials/snippet-form-fields.php:36
+msgctxt "alkaline"
+msgid "First name "
+msgstr "Fornavn "
+
+#: templates/page.php:96 templates/page.php:125
+#: templates/partials/snippet-form-fields.php:10
+#: templates/partials/snippet-form-fields.php:39
+msgctxt "alkaline"
+msgid "E-mail "
+msgstr "E-mail "
+
+#: templates/page.php:97 templates/page.php:127
+#: templates/partials/snippet-form-fields.php:11
+#: templates/partials/snippet-form-fields.php:41
+msgctxt "alkaline"
+msgid "Submit "
+msgstr "Send"
+
+#: templates/page.php:103 templates/page.php:133
+#: templates/partials/snippet-form-fields.php:17
+#: templates/partials/snippet-form-fields.php:47
+msgid "Remember to provide an action-url to generate the form"
+msgstr "Husk at indsæt en action-url for at generere formularen"
+
+#: templates/page.php:130 templates/partials/snippet-form-fields.php:44
+msgctxt "alkaline"
+msgid "Close Box"
+msgstr "Luk boks"
+
+#: templates/partials/archive-products.php:54
+#: templates/partials/archive-products.php:55
+#: templates/partials/archive-products.php:57
+#: templates/partials/snippet-product.php:22
+#: templates/partials/snippet-product.php:25
+#: templates/partials/snippet-product.php:29 templates/single-products.php:62
+#: templates/single-products.php:65 templates/single-products.php:69
+msgid "DKK"
+msgstr "DKK"
+
+#: templates/partials/archive-products.php:61
+#: templates/partials/snippet-product.php:34
+msgid "Read more"
+msgstr "Læs mere"
+
+#: templates/partials/module-footer.php:21
+msgid "Copyright © "
+msgstr "Copyright ©"
+
+#: templates/partials/module-header.php:6
+msgid "Toggle navigation"
+msgstr "Åben menu"
+
+#: templates/partials/module-post-excerpt.php:18
+msgid "Read more..."
+msgstr "Læs mere..."
+
+#: templates/partials/snippet-post-meta-header.php:7
+msgid "Post written by "
+msgstr "Indlæg skrevet af "
+
+#: templates/partials/snippet-post-meta-header.php:10
+msgid "on "
+msgstr "d. "
+
+#: templates/partials/snippet-post-meta-header.php:18
+msgid "in the category "
+msgstr "I kategorien"
+
+#: templates/single-products.php:81
+msgid "Buy here"
+msgstr "Køb nu"
+
+#: templates/single-products.php:83 templates/single-products.php:85
+#: templates/single-products.php:120 templates/single-products.php:122
+msgid "Questions?"
+msgstr "Spørgsmål?"
+
+#: templates/single-products.php:83 templates/single-products.php:85
+#: templates/single-products.php:120 templates/single-products.php:122
+msgid "Call now on +45 21 48 95 06"
+msgstr "Ring nu på +45 21 48 95 06"
+
+#: templates/single-products.php:94
+msgid "Product SKU:"
+msgstr "Produkt varenummer:"
+
+#: templates/single-products.php:98
+msgid "in stock"
+msgstr "stk. på lager"
+
+#: templates/single-products.php:101
+msgid "Product is not in stock"
+msgstr "Produktet er ikke på lager"
+
+#: templates/single-products.php:114
+msgid "Product Description:"
+msgstr "Produkt Beskrivelse:"
+
+#: templates/single-products.php:130
+msgid "Video: "
+msgstr "Video:"
+
+#: templates/taxonomy-products.php:32 templates/taxonomy.php:22
+msgid "Previous page"
+msgstr "Forrige side"
+
+#: templates/taxonomy-products.php:32 templates/taxonomy.php:22
+msgid "Next page"
+msgstr "Næste side"
+
+#: templates/taxonomy-products.php:32 templates/taxonomy.php:22
+msgid "Page"
+msgstr "Side"
+
+#. Theme Name of the plugin/theme
+msgid "Alkaline Institute"
+msgstr "Alkaline Institute"
+
+#. Theme URI of the plugin/theme
+msgid "https://ww.alkaline-institute.dk/"
+msgstr "https://ww.alkaline-institute.dk/"
+
+#. Description of the plugin/theme
+msgid ""
+"A custom WordPress theme designed by <a href=\"https://mikkeltschentscher.dk"
+"\">Mikkel Tschentscher</a> for Alkaline Institute. If you are in need of "
+"assistance, please contact Mikkel on <a href=\"tel:004522513179\">+45 22 "
+"5131 79</a> or <a href=\"mailto:hello@mikkeltschentscher.dk"
+"\">hello@mikkeltschentscher.dk</a>.  <a href=\"https://github.com/"
+"mikkeltschentscher/alkaline-institute\">Contribute on GitHub</a>"
+msgstr ""
+"A custom WordPress theme designed by <a href=\"https://mikkeltschentscher.dk"
+"\">Mikkel Tschentscher</a> for Alkaline Institute. If you are in need of "
+"assistance, please contact Mikkel on <a href=\"tel:004522513179\">+45 22 "
+"5131 79</a> or <a href=\"mailto:hello@mikkeltschentscher.dk"
+"\">hello@mikkeltschentscher.dk</a>.  <a href=\"https://github.com/"
+"mikkeltschentscher/alkaline-institute\">Contribute on GitHub</a>"
+
+#. Author of the plugin/theme
+msgid "Mikkel Tschentscher"
+msgstr "Mikkel Tschentscher"
+
+#. Author URI of the plugin/theme
+msgid "https://mikkeltschentscher.dk/"
+msgstr "https://mikkeltschentscher.dk/"
+
+#~ msgctxt "comments title"
+#~ msgid "One thought on &ldquo;%s&rdquo;"
+#~ msgstr "En kommentar til &ldquo;%s&rdquo;"
+
+#~ msgctxt "comments title"
+#~ msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+#~ msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+#~ msgstr[0] "%1$s kommentar på \"%2$s\""
+#~ msgstr[1] "%1$s kommentarer på \"%2$s\""
+
+#~ msgid "Comments are closed."
+#~ msgstr "Kommentarer er lukket."

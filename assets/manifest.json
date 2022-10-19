@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "scripts/bootstrap/bootstrap.js",
+        "scripts/main.js"
+      ],
+      "main": true
+    },
+    "main.css": {
+      "files": [
+        "styles/main.scss"
+      ],
+      "main": true
+    },
+    "jquery.js": {
+      "files": [
+        "scripts/jquery/jquery.js"
+      ]
+    }
+  },
+  "config": {
+    "devUrl": "http://localhost/root/alkaline-institute.dk"
+  }
+}

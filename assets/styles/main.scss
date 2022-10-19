@@ -1,0 +1,166 @@
+// Import npm dependencies
+
+// Core variables and mixins
+@import "bootstrap/_variables.scss";
+@import "bootstrap/_mixins.scss";
+
+// Reset and dependencies
+@import "bootstrap/_normalize.scss";
+@import "bootstrap/_print.scss";
+// @import "bootstrap/_glyphicons.scss";
+
+// Core CSS
+@import "bootstrap/_scaffolding.scss";
+@import "bootstrap/_type.scss";
+// @import "bootstrap/_code.scss";
+@import "bootstrap/_grid.scss";
+// @import "bootstrap/_tables.scss";
+@import "bootstrap/_forms.scss";
+@import "bootstrap/_buttons.scss";
+
+// Components
+@import "bootstrap/_component-animations.scss";
+@import "bootstrap/_dropdowns.scss";
+@import "bootstrap/_button-groups.scss";
+@import "bootstrap/_input-groups.scss";
+@import "bootstrap/_navs.scss";
+@import "bootstrap/_navbar.scss";
+@import "bootstrap/_breadcrumbs.scss";
+@import "bootstrap/_pagination.scss";
+@import "bootstrap/_pager.scss";
+@import "bootstrap/_labels.scss";
+@import "bootstrap/_badges.scss";
+@import "bootstrap/_jumbotron.scss";
+@import "bootstrap/_thumbnails.scss";
+@import "bootstrap/_alerts.scss";
+@import "bootstrap/_progress-bars.scss";
+@import "bootstrap/_media.scss";
+@import "bootstrap/_list-group.scss";
+@import "bootstrap/_panels.scss";
+@import "bootstrap/_responsive-embed.scss";
+@import "bootstrap/_wells.scss";
+@import "bootstrap/_close.scss";
+
+// Components w/ JavaScript
+@import "bootstrap/_modals.scss";
+@import "bootstrap/_tooltip.scss";
+// @import "bootstrap/_popovers.scss";
+// @import "bootstrap/_carousel.scss";
+
+// Utility classes
+@import "bootstrap/_utilities.scss";
+@import "bootstrap/_responsive-utilities.scss";
+
+/*!
+ * Font Awesome v4.6.3 (http://fontawesome.io)
+ * by @davegandy - http://fontawesome.io - @fontawesome
+ * License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+@import "font-awesome/variables.scss";
+@import "font-awesome/mixins.scss";
+@import "font-awesome/path.scss";
+@import "font-awesome/core.scss";
+@import "font-awesome/larger.scss";
+@import "font-awesome/fixed-width.scss";
+@import "font-awesome/list.scss";
+@import "font-awesome/bordered-pulled.scss";
+@import "font-awesome/animated.scss";
+@import "font-awesome/rotated-flipped.scss";
+@import "font-awesome/stacked.scss";
+@import "font-awesome/icons.scss";
+@import "font-awesome/screen-reader.scss";
+@import "common/_layout.scss";
+
+.row-colophon {
+    margin-bottom: 1.5em;
+}
+
+
+
+
+.comments-body {
+    img {
+        display: none;
+    }
+}
+
+.comment {
+    position: relative;
+    margin-bottom: 2em;
+    border: 1px solid rgba(0,0,0,.09);
+    border-radius: 3px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.04);
+        flex-direction: column;
+    .comment-header {
+        padding: 2em 2em 0 2em;
+    }
+    .comment-body {
+        padding: 1em 2em 1em 2em;
+    }
+    .comment-footer {
+        position: absolute;
+        top: 2em;
+        right: 2em;
+    }
+    .children {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        .comment {
+            margin: 0;
+            border: none;
+            border-top: 1px solid rgba(0,0,0,.09);
+            border-radius: 0;
+            box-shadow: none;
+        }
+    }
+    .comment-header {
+        display: flex;
+        p {
+            margin: 0;
+        }
+    }
+    .comment-avatar {
+        img {
+            width: 100%;
+            max-width: 50px;
+            height: auto;
+            margin: 0 1em 0 0;
+            border-radius: 100%;
+        }
+    }
+}
+
+.post-excerpt-horisontal {
+    small {
+        display: block;
+    }
+}
+
+
+.comment-form-comment {
+    textarea {
+        max-width: 100%;
+        height: 100px;
+    }
+}
+
+
+.comment-form-author {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+}
+
+.comment-form-email {
+    float: left;
+    width: 48%;
+}
+
+.comment-date {
+    font-size: .75em;
+    color: rgba(0, 0, 0, .5);
+    a {
+        color: inherit;
+    }
+}

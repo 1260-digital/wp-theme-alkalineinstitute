@@ -1,0 +1,90 @@
+// List Icons
+// -------------------------
+
+.#{$fa-css-prefix}-ul {
+  padding-left: 0;
+  margin-left: $fa-li-width;
+  list-style-type: none;
+  > li { position: relative; }
+}
+.#{$fa-css-prefix}-li {
+  position: absolute;
+  left: -$fa-li-width;
+  width: $fa-li-width;
+  top: (2em / 14);
+  text-align: center;
+  &.#{$fa-css-prefix}-lg {
+    left: -$fa-li-width + (4em / 14);
+  }
+}
+
+
+.fa-ul.fa-li-check {
+  li {
+    margin-bottom: 0.75em;
+    &:before {
+      display: inline-block;
+    font-family: FontAwesome;
+    font-size: 18px;
+    text-rendering: auto;
+    content: "\f058";
+    position: absolute;
+    left: -25px;
+    top: 0px;
+    }
+  }
+}
+
+.fa-ul.fa-li-plus {
+  li {
+    margin-bottom: 0.75em;
+    &:before {
+      display: inline-block;
+    font-family: FontAwesome;
+    font-size: 18px;
+    text-rendering: auto;
+    position: absolute;
+    left: -25px;
+    top: 0px;
+    content: "\f055";
+    }
+  }
+}
+.section-default {
+  ul li:before {
+    color: $brand-primary;
+  }
+}
+.section-1-secondary,
+.section-2-secondary {
+   ul li:before {
+    color: #bfcf25;
+  }
+}
+
+.section-dark {
+  ul li:before {
+    color: #ff7d01;
+  }
+}
+.section-4-secondary {
+  ul li:before {
+    color: #fff;
+  }
+}
+.section-primary {
+  ul li:before {
+     color: #ff7d01 
+  }
+}
+.section-warning{
+    ul li:before {
+      color: #333333;
+  }
+}
+
+.section-tertiere{
+  ul li:before {
+     color: #333333 
+  }
+}
